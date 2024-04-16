@@ -1,0 +1,24 @@
+Oppgave 1
+
+b)
+Hvis du vil ha flere spillelister med forskjellige navn er det mye 
+enklere å ta navnet som input. Alternativt kunne musikk.txt hatt navnet
+på spillelisten øverst, men er enklere å ha "ren data". 
+Ellers er det jo ikke sikkert du vil at spillelisten skal leses fra en 
+fil heller, og rekkefølge kan ha noe å si. 
+
+c)
+Ordbøker er enklere når man skal slå noe opp, men når du i hovedsak skal spille en rams
+av titler gir liste mer mening. Mye enklere å behandle dataen hvis det er flere
+titler av samme artist, eller hvis du ønsker samme sang flere steder i spillelisten.
+
+d)
+Dette irriterte meg faktisk litt da jeg måtte snu om på indeksene for å legge til
+sangtittel og artist i riktig rekkefølge for å initialisere et sangobjekt.
+
+Sånn som det står for meg nå:
+self._sanger.append(Sang(l[1], l[0]))
+måtte bare byttet om slik at 
+self._sanger.append(Sang(l[0], l[1]))
+
+Sålenge eneste endringen var i musikk.txt hadde ikkenoe annet måtte endres. 
