@@ -1,0 +1,19 @@
+Oppg 5
+
+A: Klassedefinisjon
+B: Opprettelse av nytt objekt
+C: Definisjon av instansvariabel
+D: Definisjon av instansmetode
+E: Definisjon av konstruktør
+F: Kall på instansmetode
+G: Argumenter
+
+A: 1
+B: 19, 20
+C: 3, 4, 5
+D: 7, 11, 15
+E: 2
+F: 21, 22, 27, 28, 31-34
+G: 8, 12, 16, 19, 20, 25, 26, 31, 32 
+Har med 8, 12 og 16 fordi print() kan ta argumenter
+
