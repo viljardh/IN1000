@@ -1,0 +1,26 @@
+Oppg 2
+
+2.1
+Innkapsling er når vi bruker spesifikke kommandoer inni en 
+metode for å påvirke variable som *kun kan påvirkes* av de
+spesifikke kommandoene inni en klasse av en metode. 
+
+Dette er nyttig da det beskytter variablene og begrenser
+måtene man kan endre de på til de definert av klassens forfatter. 
+
+2.2
+Grensesnittet er veien brukeren av klassen har inn til å endre
+på eller legge til variable og hente ut info. Implementeringen 
+er hvordan disse endringene finner sted, altså drev og tannhjul bak.  
+
+2.3
+Metoder for de fleste praktiske formål funksjoner i en klasse som 
+gjør jobben. De tilbyr grensesnittet og lar oss gjøre endringer 
+i objektet. 
+
+De skiller seg fra funksjoner da disse gjør arbeid på et objekt
+du har kalt på fra klassen uten å nødvendigvis returnere noe - 
+når du kaller på en metode fra klassen og bruker på objektet
+vil endringene i objektet forbli. Ellers er det også ønskelig at
+metodene i en klasse har tilgang på samme variable på tvers
+av hverandre, noe som helst ikke er ønskelig i en funkjson. 
